@@ -1,0 +1,37 @@
+[
+ {
+  "title": "Vertiport Planning for Urban Aerial Mobility: An Adaptive Discretization Approach",
+  "authors": "Wang, Jacquillat, Vaze",
+  "year": 2022,
+  "venue": "Manufacturing & Service Operations Management",
+  "doi": "10.1287/msom.2022.1148",
+  "url": "https://pubsonline.informs.org/doi/references/10.1287/msom.2022.1148",
+  "method_summary": "Integrated vertiport location and capacity planning with demand allocation over a continuous service region, formulated as a mixed-integer program on a spatial grid and solved with an adaptive discretization scheme that iteratively refines the grid where it improves the solution; case studies demonstrate scalability and network value.",
+  "method_tags": [
+   "facility location",
+   "adaptive discretization",
+   "MIP",
+   "vertiport siting",
+   "capacity planning",
+   "adjacent-venue"
+  ],
+  "relevance": "both",
+  "relevance_note": "Location-capacity planning with adaptive spatial discretization transfers to siting RAM airports and spaceport feeder nodes.",
+  "confidence": "high",
+  "facet": "find:uam-aam-ram",
+  "run": "wf_866bc6b9-81f",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:uam-aam-ram",
+  "bycatch": false,
+  "sources": [
+   "r1:uam-aam-ram"
+  ],
+  "facets": [
+   "uam-aam-ram"
+  ],
+  "n_records": 1,
+  "evidence": "doi-out-of-scope",
+  "decision": "rejected"
+ }
+]

@@ -1,0 +1,2729 @@
+[
+ {
+  "title": "Joint fleet scheduling and cargo flow allocation for air cargo services",
+  "authors": "Zhu, Belieres, Hewitt, Wu",
+  "year": 2026,
+  "venue": "Transportation Research Part B",
+  "doi": "pii:s0191261526000810",
+  "url": "https://ira.lib.polyu.edu.hk/bitstream/10397/118918/1/1-s2.0-S0191261526000810-main.pdf",
+  "method_summary": "Integrated optimization of air cargo service network scheduling that combines dedicated freighters with belly capacity of passenger flights to jointly decide cargo flight schedules, cargo fleet routes and cargo routes, including through-cargo connections when one aircraft flies consecutive legs; solved by a tailored column-generation-based heuristic outperforming a commercial solver on medium/large instances. TR-B vol. 209, article 103469.",
+  "method_tags": [
+   "air cargo",
+   "fleet scheduling",
+   "cargo flow allocation",
+   "through connections",
+   "column generation heuristic",
+   "time-space network"
+  ],
+  "relevance": "B",
+  "relevance_note": "Mixing dedicated vehicles with rideshare (belly) capacity and through-connections mirrors dedicated launches plus rideshare slots and multi-hub vehicle itineraries.",
+  "confidence": "high",
+  "bycatch": false,
+  "source": "c2-air-cargo-express-airline-network",
+  "facet": "air-cargo-express-airline-network",
+  "sources": [
+   "c2-air-cargo-express-airline-network"
+  ],
+  "facets": [
+   "air-cargo-express-airline-network"
+  ],
+  "n_records": 1,
+  "evidence": "doi-signature-unseen",
+  "decision": "pending"
+ },
+ {
+  "title": "Do more US airports need slot controls? A welfare based approach to determine slot levels",
+  "authors": "Swaroop, Zou, Ball, Hansen",
+  "year": 2012,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ideas.repec.org/r/eee/transb/v46y2012i9p1239-1259.html",
+  "method_summary": "Welfare-based models and simulation to set slot cap levels at 35 major US airports, trading queuing-delay reduction against schedule-delay increase and simulating airline responses (flight reallocation and trimming); finds wider slot control would raise traveller welfare and that caps at the four slot-controlled airports are too high.",
+  "method_tags": [
+   "slot controls",
+   "welfare analysis",
+   "queuing delay",
+   "schedule delay",
+   "airline response simulation"
+  ],
+  "relevance": "A",
+  "relevance_note": "Method for choosing declared-capacity caps at congested RAM airports by balancing queuing and schedule delay.",
+  "confidence": "high",
+  "bycatch": false,
+  "source": "c1-equity-cdm-slots",
+  "facet": "c1-equity-cdm-slots",
+  "sources": [
+   "c1-equity-cdm-slots"
+  ],
+  "facets": [
+   "c1-equity-cdm-slots"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Robust Control of Markov Decision Processes with Uncertain Transition Matrices",
+  "authors": "Nilim, El Ghaoui",
+  "year": 2005,
+  "venue": "Operations Research",
+  "doi": "",
+  "url": "https://people.eecs.berkeley.edu/~elghaoui/Pubs/RobMDP_OR2005.pdf",
+  "method_summary": "Finite-state finite-action MDP where transition matrices lie in (possibly nonconvex) uncertainty sets such as likelihood or entropy regions; shows perfect duality and solves the robust problem with a robust dynamic-programming recursion at essentially no extra cost; the motivating example is aircraft path planning under stochastic weather obstacles, where robust policies give far better worst-case expected travel time.",
+  "method_tags": [
+   "robust MDP",
+   "robust dynamic programming",
+   "uncertainty sets",
+   "aircraft routing",
+   "weather uncertainty",
+   "Markov decision process",
+   "robust optimization",
+   "dynamic programming"
+  ],
+  "relevance": "both",
+  "relevance_note": "Robust DP with estimated-from-data transition uncertainty is a natural engine for dynamic RAM rerouting/holding under weather, and equally for go/no-go launch-window sequencing at a spaceport where weather transition statistics are poorly estimated.",
+  "confidence": "medium",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "c1-trajectory-airspace",
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "stochastic-robust-atfm",
+   "trajectory-airspace"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Uncapacitated Single-Allocation Hub Median Location with Edge Upgrading: Models and Exact Solution Algorithms",
+  "authors": "Landete, Muñoz-Ocaña, Rodríguez-Chía, Saldanha-da-Gama",
+  "year": 2024,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://cefup-nipe-rank.eeg.uminho.pt/people/7170/articles",
+  "method_summary": "Single-allocation hub median with the option to upgrade (invest in) edges to reduce their cost/time under a budget; MIP models and exact algorithms (TR-B 187, 2024). Venue from institutional ranking page.",
+  "method_tags": [
+   "hub median",
+   "edge upgrading",
+   "network investment",
+   "exact algorithms",
+   "single allocation"
+  ],
+  "relevance": "B",
+  "relevance_note": "Upgrading links (e.g. investing in a spaceport-hub corridor or transfer stage) alongside hub choice.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-hub-location",
+  "facet": "hub-location",
+  "sources": [
+   "c1-hub-location"
+  ],
+  "facets": [
+   "hub-location"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Sustainable hub location under uncertainty",
+  "authors": "Taherkhani, Hosseini, Alumur",
+  "year": 2024,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://uwaterloo.ca/scholar/salumura/node/35415",
+  "method_summary": "Hub location under demand uncertainty with sustainability (emissions/cost) objectives; stochastic/robust models with decomposition. Title, authors and venue from search summary and author page; from snippet only.",
+  "method_tags": [
+   "hub location",
+   "uncertainty",
+   "sustainability",
+   "stochastic",
+   "decomposition"
+  ],
+  "relevance": "B",
+  "relevance_note": "Multi-objective hub siting under uncertainty; emissions analog to launch environmental constraints.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-hub-location",
+  "facet": "hub-location",
+  "sources": [
+   "c1-hub-location"
+  ],
+  "facets": [
+   "hub-location"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A mean-CVaR approach to the risk-averse single allocation hub location problem with flow-dependent economies of scale",
+  "authors": "Ghaffarinasab, Çavuş, Kara",
+  "year": 2023,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://avesis.metu.edu.tr/naderg/yayinlar",
+  "method_summary": "Risk-averse single-allocation hub location under stochastic demand with flow-dependent (piecewise) inter-hub economies of scale; mean-CVaR objective and decomposition-based solution (TR-B 167:32-53). Venue from author publication list.",
+  "method_tags": [
+   "CVaR",
+   "risk-averse",
+   "stochastic hub location",
+   "economies of scale",
+   "single allocation"
+  ],
+  "relevance": "B",
+  "relevance_note": "Risk-averse hub design when consolidated flow (and therefore unit launch cost) is uncertain.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-hub-location",
+  "facet": "hub-location",
+  "sources": [
+   "c1-hub-location"
+  ],
+  "facets": [
+   "hub-location"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "An Exact Algorithm for the Pickup and Delivery Problem with Crowdsourced Bids and Transshipment",
+  "authors": "(authors not shown in result; PolyU repository)",
+  "year": 2023,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ira.lib.polyu.edu.hk/handle/10397/106859",
+  "method_summary": "Last-mile PDP where crowdsourced carriers bid and loads may be transshipped between vehicles; branch-price-and-cut exact algorithm (from snippet only).",
+  "method_tags": [
+   "pickup and delivery",
+   "transshipment",
+   "branch-price-and-cut",
+   "crowdsourcing"
+  ],
+  "relevance": "B",
+  "relevance_note": "Recent exact method for transfer-enabled pickup-delivery; relevant to payload hand-over at hubs.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-multi-echelon-synchronization",
+  "facet": "multi-echelon-synchronization",
+  "sources": [
+   "c2-multi-echelon-synchronization"
+  ],
+  "facets": [
+   "multi-echelon-synchronization"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A branch-and-price-and-cut algorithm for the vehicle routing problem with load-dependent drones",
+  "authors": "not shown in result",
+  "year": 2023,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://publications.polymtl.ca/45675/",
+  "method_summary": "VRP with drones whose energy consumption and range depend on carried load; branch-and-price-and-cut with labelling over load-dependent resources. Venue and pages (TR-B 171:80-110) seen in a search summary only.",
+  "method_tags": [
+   "VRP with drones",
+   "load-dependent range",
+   "branch-and-price-and-cut",
+   "energy",
+   "exact"
+  ],
+  "relevance": "B",
+  "relevance_note": "Load-dependent range is the routing version of payload-dependent launch capacity.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "An exact algorithm for the two-echelon vehicle routing problem with drones",
+  "authors": "Zhou et al. (co-authors not shown)",
+  "year": 2023,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://publications.polymtl.ca/45675/",
+  "method_summary": "Two-echelon routing in which trucks serve satellites/parking nodes from which drones serve customers; exact algorithm (branch-and-price-and-cut type) with synchronization at satellites. Venue and pages (TR-B 168:124-150) seen in a search summary only.",
+  "method_tags": [
+   "two-echelon",
+   "VRP with drones",
+   "satellites",
+   "exact",
+   "synchronization"
+  ],
+  "relevance": "B",
+  "relevance_note": "Two-echelon trunk/satellite structure with synchronization at intermediate nodes is the routing-level form of spoke-hub-orbit feeding.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Integrated berth and yard space allocation under uncertainty",
+  "authors": "authors not shown in search snippet (PolyU-affiliated)",
+  "year": 2022,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://research.polyu.edu.hk/en/publications/integrated-berth-and-yard-space-allocation-under-uncertainty/",
+  "method_summary": "Two-stage stochastic integer program that jointly allocates berths and yard storage space under uncertainty (TRB vol. 162, 2022); authors and solution method were not visible in the search result and should be verified.",
+  "method_tags": [
+   "berth allocation",
+   "two-stage stochastic programming",
+   "integrated planning",
+   "uncertainty",
+   "storage capacity"
+  ],
+  "relevance": "B",
+  "relevance_note": "Jointly sizing docking slots and on-orbit storage at a hub under uncertain arrivals is the same berth-plus-yard coupling.",
+  "confidence": "low",
+  "facet": "find:time-windows-periodic-launch",
+  "run": "wf_be0fe65f-e1b",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:time-windows-periodic-launch",
+  "bycatch": false,
+  "sources": [
+   "r1:time-windows-periodic-launch"
+  ],
+  "facets": [
+   "time-windows-periodic-launch"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Air Traffic Flow Management Integrating Separation Management and Ground Holding: An Efficiency-Equity Bi-objective Perspective",
+  "authors": "Guo, Hu, Zou, Hansen, Zhang, Xie",
+  "year": 2022,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "",
+  "method_summary": "Bi-objective (efficiency vs equity) ATFM model integrating en-route separation management with ground holding; from search-summary snippet only (TR-B 155:394-423), no direct URL seen.",
+  "method_tags": [
+   "bi-objective",
+   "equity",
+   "separation management",
+   "ground holding",
+   "ATFM"
+  ],
+  "relevance": "A",
+  "relevance_note": "Integrates tactical separation with strategic holding; relevant to dense RAM corridors where separation is the binding capacity.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c1-large-scale-solution-methods",
+  "facet": "large-scale-solution-methods",
+  "sources": [
+   "c1-large-scale-solution-methods"
+  ],
+  "facets": [
+   "large-scale-solution-methods"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A branch-and-cut algorithm for the vehicle routing problem with drones",
+  "authors": "not shown in result (TU Dresden; likely Tamke, Buscher)",
+  "year": 2021,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://fis.tu-dresden.de/portal/en/publications/a-branchandcut-algorithm-for-the-vehicle-routing-problem-with-drones(8a35a124-a8b7-4547-bea9-655464bafffe).html",
+  "method_summary": "Exact branch-and-cut for the VRP with drones (multiple trucks each with drones; makespan objective) with valid inequalities for truck-drone synchronization. Venue seen on the institutional repository page (TR-B 144:174-203).",
+  "method_tags": [
+   "VRP with drones",
+   "branch-and-cut",
+   "exact",
+   "synchronization",
+   "makespan"
+  ],
+  "relevance": "B",
+  "relevance_note": "Exact cutting-plane treatment of synchronized multi-vehicle schedules transfers to synchronized feeder/launcher timetables.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Two-echelon vehicle routing problem with time windows and mobile satellites",
+  "authors": "Li, Wang, Chen, Bai",
+  "year": 2020,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://research.buaa.edu.cn/en/publications/two-echelon-vehicle-routing-problem-with-time-windows-and-mobile-/",
+  "method_summary": "2E-VRP-TM: vans make time-windowed deliveries and act as mobile satellites from which UAVs are dispatched to customers with time windows; MIP plus heuristic (from snippet only; TRB 138:179-201).",
+  "method_tags": [
+   "two-echelon VRP",
+   "mobile satellites",
+   "drones",
+   "time windows",
+   "synchronization"
+  ],
+  "relevance": "B",
+  "relevance_note": "Mobile satellites synchronised with second-echelon vehicles resemble mobile/ship-based launch platforms synchronised with orbital hub windows.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-multi-echelon-synchronization",
+  "facet": "multi-echelon-synchronization",
+  "sources": [
+   "c2-multi-echelon-synchronization"
+  ],
+  "facets": [
+   "multi-echelon-synchronization"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Transit timetable synchronization for transfer time minimization",
+  "authors": "Abdolmaleki, Masoud, Yin",
+  "year": 2020,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/7688",
+  "method_summary": "Timetable synchronization minimising transfer times across a transit network; exact/heuristic optimization over departure offsets (TRB 131:143-159; authors from recollection).",
+  "method_tags": [
+   "timetable synchronization",
+   "transfers",
+   "transit",
+   "transfer time",
+   "optimization"
+  ],
+  "relevance": "B",
+  "relevance_note": "Network-wide synchronization of arrivals at hubs for minimum transfer wait.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c2-multi-echelon-synchronization",
+  "facet": "multi-echelon-synchronization",
+  "sources": [
+   "c2-multi-echelon-synchronization",
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "multi-echelon-synchronization",
+   "transit-feeder-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Vehicle routing problem with drones",
+  "authors": "Wang, Sheu",
+  "year": 2019,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://publications.polymtl.ca/45675/",
+  "method_summary": "VRP with drones in which drones can be launched and retrieved at customer nodes and at intermediate docking hubs; arc-based MIP and a branch-and-price algorithm on an auxiliary network. Venue seen in reference lists (TR-B 122:350-364) only.",
+  "method_tags": [
+   "VRP with drones",
+   "docking hubs",
+   "branch-and-price",
+   "synchronization",
+   "MIP"
+  ],
+  "relevance": "B",
+  "relevance_note": "Intermediate docking hubs where satellite vehicles transfer between carriers are an explicit hub layer in a drone network, analogous to intermediate staging nodes.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Optimal zone sizes and headways for flexible-route bus services",
+  "authors": "Kim, Levy, Schonfeld",
+  "year": 2019,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/7732",
+  "method_summary": "Analytical optimisation of flexible-route feeder zone sizes and headways; from result listing (co-occurring IDEAS record TR-B 130, 67-81). Authors from recall.",
+  "method_tags": [
+   "flexible-route feeder",
+   "zone size",
+   "headway",
+   "analytical"
+  ],
+  "relevance": "B",
+  "relevance_note": "Zone/headway sizing for flexible feeders maps to spaceport catchment size and launch cadence.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "The Bike sharing Rebalancing Problem with Stochastic Demands",
+  "authors": "Dell'Amico, Iori, Novellani, Subramanian",
+  "year": 2018,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://iris.unimore.it/bitstream/11380/1168939/4/main.pdf",
+  "method_summary": "Stochastic rebalancing routing with uncertain station demands; stochastic programming and robust formulations with branch-and-cut and heuristics. Venue (TR-B 118:362-380) from snippet.",
+  "method_tags": [
+   "bike rebalancing",
+   "stochastic demand",
+   "stochastic programming",
+   "branch-and-cut"
+  ],
+  "relevance": "B",
+  "relevance_note": "Rebalancing under uncertain demand.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c3-fleet-sizing-capacity-expansion",
+  "facet": "fleet-sizing-capacity-expansion",
+  "sources": [
+   "c3-fleet-sizing-capacity-expansion"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Bicycle sharing system design with capacity allocations",
+  "authors": "Çelebi, Yörüsün, Işık",
+  "year": 2018,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ideas.repec.org/s/eee/transb5.html",
+  "method_summary": "Station location and capacity (dock/bike) allocation for a bike-sharing system via a set-covering/queueing-based model. Venue (TR-B 114:86-98) from snippet; authors from secondary recollection.",
+  "method_tags": [
+   "bike sharing",
+   "station capacity allocation",
+   "location",
+   "queueing"
+  ],
+  "relevance": "B",
+  "relevance_note": "Joint location and capacity allocation of nodes in a shared-asset network.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-fleet-sizing-capacity-expansion",
+  "facet": "fleet-sizing-capacity-expansion",
+  "sources": [
+   "c3-fleet-sizing-capacity-expansion"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Connecting e-hailing to mass transit platform: Analysis of relative spatial position",
+  "authors": "Chen, Nie",
+  "year": 2017,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/6357",
+  "method_summary": "Analytical comparison of zone-based versus line-based e-hailing feeders integrated with fixed-route transit; line-based feeders with stable headway dominate on agency and user cost in all scenarios.",
+  "method_tags": [
+   "e-hailing feeder",
+   "spatial design",
+   "analytical",
+   "integration with transit"
+  ],
+  "relevance": "B",
+  "relevance_note": "Spatial organisation of on-demand feeders relative to trunk corridors; informs how spaceport catchments should be organised relative to hub orbits.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A green intermodal service network design problem with travel time uncertainty",
+  "authors": "Demir, Burgholzer, Hrušovský, Arıkan, Jammernegg, Van Woensel",
+  "year": 2016,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://results2021.ref.ac.uk/outputs/809f07a3-832e-4ed6-a4f4-72abbd6e2c7a?page=1",
+  "method_summary": "Intermodal SND on a time-space multimodal network with objectives on cost, transit time and emissions; travel-time uncertainty handled via sample average approximation of a stochastic MIP solved with a commercial solver; reports trade-offs among the objectives. REF listing shows 2015 (online-first); print volume is 2016.",
+  "method_tags": [
+   "intermodal",
+   "stochastic programming",
+   "sample average approximation",
+   "multi-objective",
+   "time-space network"
+  ],
+  "relevance": "B",
+  "relevance_note": "Shows how to embed stochastic transfer/transit times and multiple objectives (cost, delay, environmental) in a time-space SND, relevant to uncertain launch/phasing durations and emissions-aware spaceport feeder design.",
+  "confidence": "medium",
+  "facet": "find:service-network-design",
+  "run": "wf_9af13b0e-3bc",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:service-network-design",
+  "bycatch": false,
+  "sources": [
+   "r1:service-network-design"
+  ],
+  "facets": [
+   "service-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Designing robust schedule coordination scheme for transit networks with safety control margins",
+  "authors": "Wu, Liu, Jin",
+  "year": 2016,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "(seen in result text of query 21 only)",
+  "method_summary": "Robust schedule coordination with slack/safety margins against stochastic travel times to protect timed transfers (from snippet only).",
+  "method_tags": [
+   "robust scheduling",
+   "timed transfer",
+   "slack",
+   "transit"
+  ],
+  "relevance": "B",
+  "relevance_note": "Slack allocation to protect transfers against delays mirrors buffer design for launch-window connections (by-catch).",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c2-multi-echelon-synchronization",
+  "facet": "multi-echelon-synchronization",
+  "sources": [
+   "c2-multi-echelon-synchronization"
+  ],
+  "facets": [
+   "multi-echelon-synchronization"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Two-phase stochastic program for transit network design under demand uncertainty",
+  "authors": "An, Lo",
+  "year": 2016,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ideas.repec.org/s/eee/transb5.html",
+  "method_summary": "Two-phase stochastic program for transit network design with demand uncertainty, separating strategic network structure from adaptive service decisions. Venue/year from snippet only.",
+  "method_tags": [
+   "transit network design",
+   "stochastic programming",
+   "demand uncertainty",
+   "two-phase"
+  ],
+  "relevance": "B",
+  "relevance_note": "Network design under uncertain demand with phased decisions, relevant to feeder network design.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c3-fleet-sizing-capacity-expansion",
+  "facet": "fleet-sizing-capacity-expansion",
+  "sources": [
+   "c3-fleet-sizing-capacity-expansion"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A 3-step math heuristic for the static repositioning problem in bike-sharing systems",
+  "authors": "Forma, Raviv, Tzur",
+  "year": 2015,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ideas.repec.org/s/eee/transb5.html",
+  "method_summary": "Three-step math-heuristic (clustering, routing, loading) for static bike repositioning. Venue (TR-B 71:230-247) from snippet.",
+  "method_tags": [
+   "bike repositioning",
+   "matheuristic",
+   "clustering"
+  ],
+  "relevance": "B",
+  "relevance_note": "Decomposition heuristic for repositioning.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c3-fleet-sizing-capacity-expansion",
+  "facet": "fleet-sizing-capacity-expansion",
+  "sources": [
+   "c3-fleet-sizing-capacity-expansion"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Optimal transit service atop ring-radial and grid street networks: A continuum approximation design method and comparisons",
+  "authors": "Chen, Gu, Cassidy, Daganzo",
+  "year": 2015,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://research.polyu.edu.hk/en/publications/optimal-transit-service-atop-ring-radial-and-grid-street-networks/",
+  "method_summary": "Two CA models design city-wide transit at minimum cost for ring-radial and grid street layouts; ring-radial consistently cheaper by 9-13% (up to 21.5%); procedures applicable to near-ideal real networks.",
+  "method_tags": [
+   "continuous approximation",
+   "ring-radial",
+   "grid",
+   "network design"
+  ],
+  "relevance": "B",
+  "relevance_note": "Geometry-dependent CA design shows how spoke geometry affects hub-feeding cost.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Optimal deployment of public charging stations for plug-in hybrid electric vehicles",
+  "authors": "He, Wu, Yin, Guan",
+  "year": 2013,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://trid.trb.org/View/1243763",
+  "method_summary": "Equilibrium framework coupling charging availability, electricity prices and route choice; charging-station allocation across a metropolitan network to maximize social welfare, formulated as a mathematical program with complementarity constraints and solved by an active-set algorithm (TR-B 47:87-101).",
+  "method_tags": [
+   "charging station location",
+   "MPCC",
+   "network equilibrium",
+   "social welfare",
+   "active-set algorithm"
+  ],
+  "relevance": "B",
+  "relevance_note": "Infrastructure location with user-equilibrium response is the demand-responsive counterpart of hub capacity placement under endogenous demand.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Synchronization of bus timetabling",
+  "authors": "Ibarra-Rojas, Rios-Solis",
+  "year": 2012,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/4228",
+  "method_summary": "0-1 integer program for network-wide bus timetabling that maximises the number of synchronised arrivals at transfer nodes (and avoids bunching on shared segments) while keeping departures within almost-evenly-spaced headway windows. Proved NP-hard; a multistart iterated local search metaheuristic solves realistic Monterrey instances beyond the reach of the MIP solver.",
+  "method_tags": [
+   "0-1 IP",
+   "timetable synchronization",
+   "headway windows",
+   "metaheuristic",
+   "NP-hardness",
+   "trunk-feeder"
+  ],
+  "relevance": "both",
+  "relevance_note": "CROSS-REFERENCE (already recorded by sibling facet B2-time-windows; dedupe at merge): coordinating departures from many spaceports so payloads arrive at a hub within common windows, with per-pad cadence (headway) windows, is this synchronisation timetabling problem; also mirrors coordinating RAM feeder arrivals at a hub while avoiding bunching on shared approach corridors.",
+  "confidence": "medium",
+  "facet": "find:transit-feeder-trunk-design",
+  "run": "wf_be0fe65f-e1b",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:transit-feeder-trunk-design",
+  "bycatch": false,
+  "sources": [
+   "r1:time-windows-periodic-launch",
+   "r1:transit-feeder-trunk-design"
+  ],
+  "facets": [
+   "time-windows-periodic-launch",
+   "transit-feeder-trunk-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Continuous-time point-queue models in dynamic network loading",
+  "authors": "Ban, Pang, Liu, Ma",
+  "year": 2012,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://trid.trb.org/View/1135246",
+  "method_summary": "Rigorous continuous-time point-queue dynamic network loading via differential complementarity systems; TR-B 46(3) 360-380.",
+  "method_tags": [
+   "continuous time",
+   "point queue",
+   "dynamic network loading",
+   "differential complementarity",
+   "DTA"
+  ],
+  "relevance": "A",
+  "relevance_note": "Continuous-time queueing at capacity points is the rigorous counterpart of discrete holding arcs at airports/sectors.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-dynamic-flows-theory",
+  "facet": "dynamic-flows-theory",
+  "sources": [
+   "c2-dynamic-flows-theory"
+  ],
+  "facets": [
+   "dynamic-flows-theory"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Modeling and solving continuous-time instantaneous dynamic user equilibria: A differential complementarity systems approach",
+  "authors": "Ban, Pang, Liu, Ma",
+  "year": 2012,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://ftp.iaorifors.com/paper/77571",
+  "method_summary": "Companion paper formulating and solving continuous-time instantaneous DUE as a differential complementarity system with time-stepping; TR-B 46(3) 389-408.",
+  "method_tags": [
+   "continuous time",
+   "dynamic user equilibrium",
+   "differential complementarity",
+   "time stepping",
+   "DTA"
+  ],
+  "relevance": "A",
+  "relevance_note": "Time-stepping solution of continuous-time models speaks to the continuous-versus-discrete-time choice in flow models.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-dynamic-flows-theory",
+  "facet": "dynamic-flows-theory",
+  "sources": [
+   "c2-dynamic-flows-theory"
+  ],
+  "facets": [
+   "dynamic-flows-theory"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A structured flexible transit system for low demand areas",
+  "authors": "Nourbakhsh, Ouyang",
+  "year": 2012,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/4088",
+  "method_summary": "Flexible-route buses each serve a predetermined area; the service areas together form a hybrid hub-and-spoke/grid structure. Agency and user cost components are modelled analytically in idealized square cities and the network layout, service area per bus and headway are optimized; compared against fixed-route and taxi systems, the flexible system has lowest cost at low-to-moderate demand.",
+  "method_tags": [
+   "continuous approximation",
+   "flexible-route transit",
+   "hub-and-spoke",
+   "network layout optimization",
+   "cost comparison",
+   "flexible transit",
+   "low demand"
+  ],
+  "relevance": "both",
+  "relevance_note": "Low-demand flexible feeder/hub-spoke design logic transfers to regional air mobility and spaceport feeder network sizing.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-transit-feeder-design",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "resolver-2",
+   "transit-feeder-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A methodology to derive the critical demand density for designing and operating feeder transit services",
+  "authors": "Quadrifoglio, Li",
+  "year": 2009,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/1830",
+  "method_summary": "Analytical continuous-approximation model yielding closed-form estimates of the critical demand density at which a feeder service should switch between demand-responsive and fixed-route operation; critical demands found in the 10-50 customers/mile^2/h range, with demand-responsive preferred in afternoon peaks.",
+  "method_tags": [
+   "continuous approximation",
+   "feeder transit",
+   "demand-responsive vs fixed-route",
+   "closed-form",
+   "critical demand density",
+   "demand-responsive feeder",
+   "simulation",
+   "policy switch"
+  ],
+  "relevance": "B",
+  "relevance_note": "Threshold-demand rule for scheduled vs on-demand feeder operation transfers to deciding fixed launch cadence vs on-demand launches per spaceport.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-transit-feeder-design",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "resolver-2",
+   "transit-feeder-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A cell-based variational inequality formulation of the dynamic user optimal assignment problem",
+  "authors": "Lo, Szeto",
+  "year": 2002,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://iaorifors.com/paper/39471",
+  "method_summary": "Cell-based DTA formulation following the ideal dynamic user optimal principle via a variational inequality that embeds a network version of the cell transmission model (ensuring FIFO); solved with an alternating direction method for co-coercive VIs and shown to capture shockwaves and queue formation/dissipation.",
+  "method_tags": [
+   "variational inequality",
+   "dynamic user optimal",
+   "cell transmission model",
+   "alternating direction method",
+   "queue dynamics",
+   "discrete time",
+   "DTA"
+  ],
+  "relevance": "A",
+  "relevance_note": "Cell-based DUO shows how CTM physics can be embedded in equilibrium (user-choice) models relevant to decentralised RAM operators.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c2-dynamic-flows-theory",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "dynamic-flows-theory",
+   "resolver-2"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Bus network design",
+  "authors": "Ceder, Wilson",
+  "year": 1986,
+  "venue": "Transportation Research Part B",
+  "doi": "",
+  "url": "https://trid.trb.org/View/238094",
+  "method_summary": "Describes the bus network design problem, surveys solution approaches, and proposes a route-design algorithm that balances passenger and operator interests while being easier to implement and less data-demanding; situates route design within the five-step planning process (routes, frequencies, timetables, vehicle and driver scheduling).",
+  "method_tags": [
+   "transit network design",
+   "route generation",
+   "heuristic",
+   "planning hierarchy",
+   "classic"
+  ],
+  "relevance": "B",
+  "relevance_note": "Classic sequential planning hierarchy (routes-frequencies-timetables-fleet) frames feeder network design stages.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-transit-feeder-design",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "resolver-2",
+   "transit-feeder-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A ranking-based optimization algorithm for the vehicle relocation problem in car sharing services",
+  "authors": "Szwed, Skrzyński, Wąs",
+  "year": 2026,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://badap.agh.edu.pl/publikacja/164430",
+  "method_summary": "Addresses the vehicle relocation problem in free-floating car sharing (repositioning vehicles and transferring staff by scooter); partitions the service area into zones with similar temporal patterns and proposes a fast ranking-based algorithm using available cars per zone, projected demand density and trip durations; evaluated on real Polish operator data against no-optimization and an exact MIP.",
+  "method_tags": [
+   "vehicle relocation",
+   "ranking heuristic",
+   "zoning",
+   "MIP benchmark",
+   "car sharing",
+   "heuristic",
+   "free-floating"
+  ],
+  "relevance": "both",
+  "relevance_note": "Marginal: fast fleet-repositioning heuristic vs exact MIP benchmark is an analogue for RAM aircraft repositioning.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-fleet-sizing-capacity-expansion",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion",
+   "resolver-2"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Integrated Prediction and Distributionally Robust Optimization for Air Traffic Management",
+  "authors": "Authors not captured in search snippets (arXiv 2509.18492; listing attributes to Wu, Li - unverified)",
+  "year": 2025,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://arxiv.org/abs/2509.18492",
+  "method_summary": "Learning-driven optimization framework: a deep-learning model forecasts arrival and departure capacity distributions across a network of airports, and the forecasts feed a distributionally robust multi-airport ground holding problem (dr-MAGHP) that hedges against capacity-prediction errors; reported up to 15.6% improvement over the stochastic-programming MAGHP under capacity distribution shifts. Venue stated in the arXiv listing; journal year/volume not seen.",
+  "method_tags": [
+   "distributionally robust optimization",
+   "multi-airport ground holding",
+   "deep learning forecasts",
+   "capacity prediction",
+   "distribution shift"
+  ],
+  "relevance": "A",
+  "relevance_note": "Direct template for RAM: learned capacity distributions for many small airports with sparse data, hedged by DRO rather than fixed scenarios.",
+  "confidence": "low",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "stochastic-robust-atfm"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Machine learning assisted dynamic copy generation approach for integrated aircraft and passenger recovery problem",
+  "authors": "not shown (Beihang University group)",
+  "year": 2025,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://research.buaa.edu.cn/en/publications/machine-learning-assisted-dynamic-copy-generation-approach-for-in/",
+  "method_summary": "Integrated aircraft and passenger recovery on a flight-copy time-space network where machine learning guides dynamic generation of candidate flight copies inside a column-and-row generation scheme; venue (TR-C 2025) from search summary, authors not displayed; from snippet only.",
+  "method_tags": [
+   "integrated recovery",
+   "flight copies",
+   "machine learning",
+   "column-and-row generation",
+   "time-space network"
+  ],
+  "relevance": "A",
+  "relevance_note": "Learning-guided generation of time copies is a recent scalability device for time-expanded RAM recovery models.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-airline-schedule-recovery",
+  "facet": "airline-schedule-recovery",
+  "sources": [
+   "c2-airline-schedule-recovery"
+  ],
+  "facets": [
+   "airline-schedule-recovery"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Self-organized free-flight arrival for urban air mobility",
+  "authors": "Waltz, Okhrin, Schultz",
+  "year": 2024,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://fis.tu-dresden.de/portal/en/publications/selforganized-freeflight-arrival-for-urban-air-mobility(5de37fba-1781-4549-a0c0-fdade71e06e8).html",
+  "method_summary": "Deep reinforcement learning based self-organized vertiport arrival system: circular free-flight airspace, each eVTOL an agent following a shared decentralized policy on local information; analyses policy evolution from local holding patterns to safe efficient arrivals, with robustness tests and deployment on small UAVs.",
+  "method_tags": [
+   "deep reinforcement learning",
+   "multi-agent",
+   "vertiport arrival",
+   "decentralized control",
+   "UAM",
+   "self-organisation",
+   "free flight",
+   "arrival management"
+  ],
+  "relevance": "A",
+  "relevance_note": "Decentralised arrival sequencing is an alternative to centralised vertiport slot allocation; relevant to the terminal-capacity side of RAM/UAM flow management.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c2-uam-aam-ram",
+   "r1-resolver-2",
+   "r1:airport-runway-terminal"
+  ],
+  "facets": [
+   "airport-runway-terminal",
+   "resolver-2",
+   "uam-aam-ram"
+  ],
+  "n_records": 3,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "An integrated model for airport runway assignment and aircraft trajectory optimisation",
+  "authors": "Barea, de Celis, Cadarso",
+  "year": 2024,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://burjcdigital.urjc.es/items/e258ed08-4642-4e76-b6b9-da7e086757ba",
+  "method_summary": "MINLP integrating runway assignment and approach/landing trajectory optimisation; solved by Benders decomposition (MILP master for runway assignment, NLP submodel for fuel- and delay-minimizing trajectories) within a rolling-horizon scheme over 30-minute windows; tested on Madrid-Barajas instances.",
+  "method_tags": [
+   "MINLP",
+   "Benders decomposition",
+   "rolling horizon",
+   "runway assignment",
+   "trajectory optimisation",
+   "integrated model",
+   "4D trajectory",
+   "scheduling"
+  ],
+  "relevance": "A",
+  "relevance_note": "Decomposition of discrete assignment from continuous trajectory decisions is a template for integrated RAM arrival management.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-atfm-trb-trc-recent",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "resolver-2"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Text-Enriched Air Traffic Flow Modeling and Prediction Using Transformers",
+  "authors": "(authors not shown)",
+  "year": 2024,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://research.unsw.edu.au/people/dr-sameer-alam/publications",
+  "method_summary": "Transformer-based air traffic flow prediction enriched with textual (NOTAM/weather) inputs for ATFM demand forecasting. Snippet only; venue stated as TR-C 2024.",
+  "method_tags": [
+   "flow prediction",
+   "transformer",
+   "text data",
+   "deep learning",
+   "ATFM"
+  ],
+  "relevance": "A",
+  "relevance_note": "Demand forecasting input for RAM flow management.",
+  "confidence": "low",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A column-generation matheuristic approach for optimizing first-mile ridesharing services with publicly- and privately-owned autonomous vehicles",
+  "authors": "He, Jin, Trépanier, Schulte",
+  "year": 2024,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://publications.polymtl.ca/57751/",
+  "method_summary": "Column-generation based matheuristic for first-mile ridesharing feeding transit with a mixed fleet of publicly- and privately-owned autonomous vehicles (venue/volume from institutional record; snippet gave no further method detail).",
+  "method_tags": [
+   "column generation",
+   "matheuristic",
+   "first-mile feeder",
+   "mixed fleet",
+   "autonomous vehicles",
+   "ridesharing"
+  ],
+  "relevance": "B",
+  "relevance_note": "First-mile feeder design with heterogeneous fleet ownership is a direct analogue of feeder legs into a spaceport.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-transit-feeder-design",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "resolver-2",
+   "transit-feeder-design"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Airspace congestion, flow relations, and 4-d fundamental diagrams for advanced urban air mobility",
+  "authors": "Cummings, Mahmassani",
+  "year": 2024,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "",
+  "method_summary": "Macroscopic traffic-flow treatment of unstructured UAM airspace: derives density-flow-speed relations and 4-D fundamental diagrams from simulated eVTOL traffic (TR-C 159, 104467). From snippet only (volume/article number given, no URL). Seen only in the search-engine snippet for query 24; no publisher URL surfaced.",
+  "method_tags": [
+   "macroscopic flow",
+   "fundamental diagram",
+   "airspace capacity",
+   "UAM",
+   "simulation"
+  ],
+  "relevance": "A",
+  "relevance_note": "Macroscopic capacity relations supply the sector/airspace capacity functions needed in aggregate UAM/RAM flow models.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-uam-aam-trc-second-pass",
+  "facet": "c3-uam-aam-trc-second-pass",
+  "sources": [
+   "c3-uam-aam-trc-second-pass"
+  ],
+  "facets": [
+   "c3-uam-aam-trc-second-pass"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Robust optimization integrating aircraft trajectory and sequence under weather forecast uncertainty",
+  "authors": "Kamo, Rosenow, Fricke, Soler",
+  "year": 2023,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://fis.tu-dresden.de/portal/en/publications/robust-optimization-integrating-aircraft-trajectory-and-sequence-under-weather-forecast-uncertainty(c44fed31-9538-4d91-b321-9e733640ccf3).html",
+  "method_summary": "Integrates 4D trajectory optimization and arrival sequencing for next-generation arrival managers under ensemble weather-forecast uncertainty; robust optimal control produces performance surfaces per aircraft, which feed a MINLP sequencing problem relaxed to NLP; case study optimizes throughput at the merge point and fuel burn with separation maintained across ensemble members.",
+  "method_tags": [
+   "robust optimization",
+   "ensemble forecast",
+   "optimal control",
+   "MINLP",
+   "arrival sequencing",
+   "trajectory-based operations",
+   "ensemble forecasts"
+  ],
+  "relevance": "A",
+  "relevance_note": "Shows how to make RAM trajectory and sequence decisions robust to ensemble wind/weather forecasts, important for energy-constrained electric aircraft with little reserve.",
+  "confidence": "medium",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "r1-resolver-2",
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "resolver-2",
+   "stochastic-robust-atfm"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Multi-objective airport slot scheduling incorporating operational delays and multi-stakeholder preferences",
+  "authors": "Katsigiannis, Zografos",
+  "year": 2023,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.research.lancs.ac.uk/portal/en/people/konstantinos-zografos(3c3d74fe-f57f-41d6-88b9-7c32db684b63)/publications.html?page=0",
+  "method_summary": "Multi-objective, multi-stakeholder slot scheduling framework generating the complete non-dominated set for any triplet of linear objectives; subtractive clustering selects representative schedules, expected delays are estimated and stakeholder preferences incorporated via displacement and operational-delay metrics.",
+  "method_tags": [
+   "multi-objective optimization",
+   "airport slot scheduling",
+   "Pareto frontier",
+   "clustering",
+   "stakeholder preferences",
+   "multi-objective optimisation",
+   "slot scheduling",
+   "non-dominated set"
+  ],
+  "relevance": "A",
+  "relevance_note": "Strategic slot scheduling with delay estimates is the capacity-allocation layer upstream of tactical ATFM.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c1-equity-cdm-slots",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "c1-equity-cdm-slots",
+   "resolver-2"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Capacity of a constrained urban airspace: Influencing factors, analytical modelling and simulations",
+  "authors": "authors not shown in result",
+  "year": 2023,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://research.tudelft.nl/en/publications/capacity-of-a-constrained-urban-airspace-influencing-factors-anal/",
+  "method_summary": "Derives an analytical model of air traffic in a confined 2-D orthogonal grid airspace to identify capacity-influencing factors, verified by agent-based simulation; finds a flow-density relation, that the whole airspace destabilizes once one intersection reaches capacity, and that maximum density is unaffected by cruise speed.",
+  "method_tags": [
+   "analytical capacity model",
+   "fundamental diagram",
+   "grid airspace",
+   "simulation",
+   "UAM",
+   "airspace capacity",
+   "constrained urban airspace",
+   "analytical model"
+  ],
+  "relevance": "A",
+  "relevance_note": "Provides capacity estimates for low-altitude constrained airspace that a RAM/UAM flow model needs as constraint parameters.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c1-trajectory-airspace",
+   "c3-uam-aam-trc-second-pass",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "c3-uam-aam-trc-second-pass",
+   "resolver-2",
+   "trajectory-airspace"
+  ],
+  "n_records": 3,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "General multi-agent reinforcement learning integrating heuristic-based delay priority strategy for demand and capacity balancing",
+  "authors": "(authors not shown; Cranfield/BUAA group)",
+  "year": 2023,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://dspace.lib.cranfield.ac.uk/handle/1826/20069",
+  "method_summary": "Multi-agent RL for the ATM demand-capacity balancing problem that integrates a heuristic delay-priority strategy to improve generalization and efficiency, with an LSTM inside a DQN to handle arbitrary DCB instances and identify key sectors; tested on real French/Spanish airspace data against state-of-the-art RL-DCB methods.",
+  "method_tags": [
+   "multi-agent reinforcement learning",
+   "DQN",
+   "LSTM",
+   "heuristic priority",
+   "demand-capacity balancing",
+   "reinforcement learning",
+   "multi-agent",
+   "ground delay"
+  ],
+  "relevance": "A",
+  "relevance_note": "Learning-based DCB offers fast re-planning for high-frequency RAM operations where MIP re-solves may be too slow.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "r1-resolver-2",
+  "facet": "resolver-2",
+  "sources": [
+   "c3-atfm-trb-trc-recent",
+   "r1-resolver-2"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "resolver-2"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Air traffic density prediction using Bayesian ensemble graph attention network (BEGAN)",
+  "authors": "(authors not shown; ASU group)",
+  "year": 2023,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://trid.trb.org/View/2205690",
+  "method_summary": "Bayesian ensemble of graph attention networks predicting air traffic density over gridded airspace by learning interactions between grid cells, trained on overlapping sub-grids; gives uncertainty-aware demand predictions for ATFM. TR-C (Aug 2023). From snippet.",
+  "method_tags": [
+   "demand prediction",
+   "graph attention network",
+   "Bayesian deep learning",
+   "airspace grid",
+   "uncertainty quantification"
+  ],
+  "relevance": "A",
+  "relevance_note": "Probabilistic demand forecasts feed stochastic/robust RAM flow models.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Data-driven distributionally robust generation of time-varying flow corridor networks under demand uncertainty",
+  "authors": "Ye et al. (co-authors not shown)",
+  "year": 2022,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "",
+  "method_summary": "Distributionally robust optimisation generating time-varying flow-corridor networks under demand uncertainty; venue and year stated only in the search result summary (no page identified), so treat as unverified.",
+  "method_tags": [
+   "flow corridors",
+   "distributionally robust optimization",
+   "time-varying network design",
+   "demand uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Time-varying corridor network generation under uncertain demand is close to RAM corridor/route-structure design.",
+  "confidence": "low",
+  "bycatch": false,
+  "source": "c2-dynamic-flows-theory",
+  "facet": "dynamic-flows-theory",
+  "sources": [
+   "c2-dynamic-flows-theory"
+  ],
+  "facets": [
+   "dynamic-flows-theory"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Passenger-centric Urban Air Mobility: Fairness trade-offs and operational efficiency",
+  "authors": "not shown in result",
+  "year": 2022,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://trid.trb.org/View/1904541",
+  "method_summary": "Methods and algorithms to operate air-taxi fleets at scale with passenger-centric objectives, analyzing trade-offs between fairness across passengers and operational efficiency (TR-C March 2022; from TRID snippet only).",
+  "method_tags": [
+   "air taxi operations",
+   "fairness",
+   "fleet dispatch",
+   "passenger-centric",
+   "UAM scalability"
+  ],
+  "relevance": "A",
+  "relevance_note": "Brings equity-efficiency trade-offs, familiar from ATFM, into UAM fleet operations and scaling.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-ram-demand-network-planning",
+  "facet": "ram-demand-network-planning",
+  "sources": [
+   "c2-ram-demand-network-planning"
+  ],
+  "facets": [
+   "ram-demand-network-planning"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A chance-constrained programming model for airport ground movement optimisation with taxi time uncertainties",
+  "authors": "Wang, Brownlee, Weiszer, Woodward, Mahfouf, Chen",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://westminsterresearch.westminster.ac.uk/item/w415w/a-chance-constrained-programming-model-for-airport-ground-movement-optimisation-with-taxi-time-uncertainties",
+  "method_summary": "Chance-constrained programming model for airport surface routing and scheduling with uncertain taxi times, solved by sample approximation in which scenarios are generated from taxi-time distributions; peripheral to ATFM (surface operations) but same technique family.",
+  "method_tags": [
+   "chance constraints",
+   "sample approximation",
+   "airport surface",
+   "taxi time uncertainty",
+   "scenario generation",
+   "ground movement",
+   "routing and scheduling",
+   "uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Illustrates sample-approximated chance constraints for ground-side turnaround/taxi uncertainty, relevant to modelling RAM turnaround and charging-stall capacity.",
+  "confidence": "medium",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "c3-atfm-trb-trc-recent",
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "stochastic-robust-atfm"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A decision making framework for incorporating fairness in allocating slots at capacity-constrained airports",
+  "authors": "(authors not shown; Zografos group, HW/Lancaster)",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://researchportal.hw.ac.uk/en/publications/a-decision-making-framework-for-incorporating-fairness-in-allocat/",
+  "method_summary": "Multi-objective slot scheduling framework for capacity-constrained (Level 3) airports that adds fairness metrics across airlines to the usual displacement/efficiency objectives, producing efficient frontiers for decision makers. TR-C 126 (2021). From snippet.",
+  "method_tags": [
+   "airport slot allocation",
+   "fairness",
+   "multi-objective",
+   "integer programming",
+   "capacity-constrained airports",
+   "slot allocation",
+   "fairness criteria",
+   "decision framework"
+  ],
+  "relevance": "A",
+  "relevance_note": "Framework for choosing among fairness notions when rationing RAM airport/vertiport capacity among operators.",
+  "confidence": "medium",
+  "bycatch": true,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c1-equity-cdm-slots",
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "c1-equity-cdm-slots"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "From aircraft tracking data to network delay model: A data-driven approach",
+  "authors": "Lin, Li, Ren, Wang, Szeto",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://research.tudelft.nl/en/publications/from-aircraft-tracking-data-to-network-delay-model-a-data-driven-",
+  "method_summary": "Multi-layer Air Traffic Network Delay (MATND) model: a system-level queueing-based model of en-route and airport congestion calibrated from aircraft tracking data and schedules to reproduce delay propagation over an air traffic network. From snippet.",
+  "method_tags": [
+   "delay propagation",
+   "queueing network",
+   "data-driven",
+   "en-route congestion",
+   "network model"
+  ],
+  "relevance": "A",
+  "relevance_note": "Network queueing representation of propagated delay gives an evaluation layer for RAM flow policies.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Automated sequencing and merging with dynamic aircraft arrival routes and speed management for continuous descent operations",
+  "authors": "Prats (et al.; co-authors not shown; LiU/UPC group)",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://itn-web.it.liu.se/~tatpo46/pps/TRC_Entry_time_2021.pdf",
+  "method_summary": "Optimisation of arrival sequencing and merging in the TMA using dynamically generated arrival routes and speed control so aircraft fly continuous descents while meeting runway separation; positioned as enabling an extended arrival manager (E-AMAN) under trajectory-based operations. TR-C 132 (2021).",
+  "method_tags": [
+   "arrival management",
+   "sequencing and merging",
+   "continuous descent",
+   "speed control",
+   "E-AMAN",
+   "optimization"
+  ],
+  "relevance": "A",
+  "relevance_note": "Arrival metering via route and speed adjustments is the terminal-area layer of a RAM flow manager feeding small airports.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A framework for railway transit network design with first-mile shared autonomous vehicles",
+  "authors": "(authors not shown in result)",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/8663",
+  "method_summary": "Framework integrating rail network design with first-mile shared autonomous vehicle feeders; TR-C 130, 103223. From result listing only.",
+  "method_tags": [
+   "rail network design",
+   "first-mile feeder",
+   "shared autonomous vehicles",
+   "integrated design"
+  ],
+  "relevance": "B",
+  "relevance_note": "Integrated trunk (rail) design with feeder fleets is the hub-plus-spaceport co-design problem.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Identification and prediction of urban airspace availability for emerging air mobility operations",
+  "authors": "authors not shown in result",
+  "year": 2021,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "",
+  "method_summary": "Identifies and predicts which urban airspace volumes are available for UAM operations given obstacles, regulations and weather (TR-C 131, 2021 per snippet). From snippet only. Seen only in the search-engine snippet for query 13; no publisher URL surfaced.",
+  "method_tags": [
+   "airspace availability",
+   "prediction",
+   "UAM",
+   "urban obstacles"
+  ],
+  "relevance": "A",
+  "relevance_note": "Defines the time-varying usable airspace (capacity) that UAM/RAM flow models take as input.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-uam-aam-trc-second-pass",
+  "facet": "c3-uam-aam-trc-second-pass",
+  "sources": [
+   "c3-uam-aam-trc-second-pass"
+  ],
+  "facets": [
+   "c3-uam-aam-trc-second-pass"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Power optimized battery swap and recharge strategies for electric aircraft operations",
+  "authors": "Justin, Payan, Briceno, German, Mavris",
+  "year": 2020,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://airmobility.gatech.edu/infrastructure-planning-operations-and-economics",
+  "method_summary": "Optimization of battery swap versus recharge strategies for electric aircraft fleets to minimize peak power demand/energy cost while meeting a flight schedule, modeling charging infrastructure at airports (TR-C 2020; from secondary pages only).",
+  "method_tags": [
+   "battery swap",
+   "charging scheduling",
+   "electric aircraft",
+   "power optimization",
+   "airport infrastructure"
+  ],
+  "relevance": "A",
+  "relevance_note": "Models the charging/turnaround resource that becomes a capacity constraint in RAM flow management.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-ram-demand-network-planning",
+  "facet": "ram-demand-network-planning",
+  "sources": [
+   "c2-ram-demand-network-planning"
+  ],
+  "facets": [
+   "ram-demand-network-planning"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "The multiple flying sidekicks traveling salesman problem: Parcel delivery with multiple drones",
+  "authors": "Murray, Raj",
+  "year": 2020,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://arxiv.org/pdf/2403.18091",
+  "method_summary": "Extends FSTSP to a truck with multiple heterogeneous drones (mFSTSP): MILP with launch/recovery scheduling at the truck and a three-phase heuristic. Venue seen in citing-paper reference lists only.",
+  "method_tags": [
+   "truck-drone",
+   "multiple drones",
+   "MILP",
+   "launch/recovery scheduling",
+   "heuristic"
+  ],
+  "relevance": "B",
+  "relevance_note": "Scheduling several range-limited satellites around one carrier's stops maps to sequencing multiple launch assets at a spaceport hub.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Truck-Drone Team Logistics: A Heuristic Approach to Multi-Drop Route Planning",
+  "authors": "not shown in result (likely Moshref-Javadi, Hemmati, Winkenbach)",
+  "year": 2020,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://ctl.mit.edu/sites/ctl.mit.edu/files/theses/43744902-SCM_Research_Expo_Poster_vFinal2.pdf",
+  "method_summary": "Truck with drones making multiple drops per sortie; MIP plus a heuristic for multi-drop route planning minimizing customer waiting. Venue seen in a citing reference list (TR-C 114) only.",
+  "method_tags": [
+   "truck-drone",
+   "multi-drop",
+   "heuristic",
+   "customer waiting time",
+   "synchronization"
+  ],
+  "relevance": "B",
+  "relevance_note": "Multi-drop satellite sorties from a mobile base model multi-payload sorties from a feeder hub.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Joint optimization of customer location clustering and drone-based routing for last-mile deliveries",
+  "authors": "Salama, Srinivas",
+  "year": 2020,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://engineering.missouri.edu/truck-drone-collaboration-could-optimize-package-delivery",
+  "method_summary": "Clusters customers into drone-launch focal points visited by a truck and routes drones from each; joint MILP with unsupervised-learning-based heuristics. Venue seen in a citing reference list only.",
+  "method_tags": [
+   "truck-drone",
+   "clustering",
+   "focal points",
+   "MILP",
+   "machine-learning heuristic"
+  ],
+  "relevance": "B",
+  "relevance_note": "Choosing launch focal points and assigning spokes to them is a small-scale hub-and-spoke design with range-limited spokes.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A bi-objective efficiency-fairness model for scheduling slots at congested airports",
+  "authors": "Zografos, Jiang",
+  "year": 2019,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.lancaster.ac.uk/~dangth/airport.html",
+  "method_summary": "Bi-objective slot-scheduling model trading total displacement (efficiency) against an inter-airline fairness indicator built on a flight-proportionality principle; shows a fairer schedule requires additional displacement (from snippet only).",
+  "method_tags": [
+   "slot scheduling",
+   "bi-objective",
+   "fairness indicator",
+   "proportionality",
+   "integer programming"
+  ],
+  "relevance": "A",
+  "relevance_note": "Proportional-fairness indicators for allocating displacement among operators transfer to RAM slot coordination.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-equity-cdm-slots",
+  "facet": "c1-equity-cdm-slots",
+  "sources": [
+   "c1-equity-cdm-slots"
+  ],
+  "facets": [
+   "c1-equity-cdm-slots"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A Lagrangian heuristic and GRASP for the hub-and-spoke network system with economies-of-scale and congestion",
+  "authors": "Alkaabneh, Diabat, Elhedhli",
+  "year": 2019,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://khazna.ku.ac.ae/en/studentTheses/a-lagrangean-heuristic-and-grasp-for-the-hub-and-spoke-network-de/",
+  "method_summary": "Hub-and-spoke design with a concave inter-hub cost (economies of scale) and a convex hub congestion cost in one objective; nonlinear MIP solved by a Lagrangian heuristic and GRASP (TR-C 102:249-273). Venue from search summary and thesis page.",
+  "method_tags": [
+   "hub congestion",
+   "economies of scale",
+   "nonlinear MIP",
+   "Lagrangian heuristic",
+   "GRASP"
+  ],
+  "relevance": "B",
+  "relevance_note": "Simultaneous scale economies on inter-hub legs and congestion at hubs is exactly the orbital-hub trade-off (bigger transfers vs docking queues).",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-hub-location",
+  "facet": "hub-location",
+  "sources": [
+   "c1-hub-location"
+  ],
+  "facets": [
+   "hub-location"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Maximum coverage capacitated facility location problem with range constrained drones",
+  "authors": "Chauhan, Unnikrishnan, Figliozzi",
+  "year": 2019,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://nitc.trec.pdx.edu/sites/default/files/Chauhan%202019%20-%20Maximum%20coverage%20capacitated%20facility%20location%20problem%20with%20range%20constrained%20drones.pdf",
+  "method_summary": "Locates capacitated drone launch facilities and assigns drones making one-to-one trips to demand points, with explicit energy consumption and battery range; ILP maximizing coverage plus greedy and three-stage heuristics within about 5% of Gurobi.",
+  "method_tags": [
+   "drone hub location",
+   "capacitated facility location",
+   "maximum coverage",
+   "range constraint",
+   "heuristics"
+  ],
+  "relevance": "B",
+  "relevance_note": "Capacitated hubs dispatching range-limited vehicles on out-and-back trips is the direct analog of capacitated spaceports dispatching launchers.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Metaheuristics for efficient aircraft scheduling and re-routing at busy terminal control areas",
+  "authors": "Samà, D'Ariano, Corman, Pacciarelli",
+  "year": 2017,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://iris.uniroma3.it/handle/11590/313776",
+  "method_summary": "Terminal control area modelled as an alternative-graph / job-shop with no-store constraints: aircraft are jobs, airspace segments and runways are resources; MILP formulation with sequencing and re-routing decisions; strongly NP-hard, so tabu search and variable neighbourhood search metaheuristics produce good solutions within real-time limits on Rome and Milan instances.",
+  "method_tags": [
+   "alternative graph",
+   "job-shop scheduling",
+   "MILP",
+   "metaheuristic",
+   "re-routing",
+   "terminal area",
+   "rerouting",
+   "MILP benchmark"
+  ],
+  "relevance": "A",
+  "relevance_note": "Alternative-graph scheduling with metaheuristics is a tactical-layer method for sequencing and rerouting RAM arrivals in a congested multi-airport terminal area. [Second-hand via sibling A2-airport log; repository page only, DOI not seen.]",
+  "confidence": "medium",
+  "facet": "find:airport-runway-terminal",
+  "run": "wf_866bc6b9-81f",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:airport-runway-terminal",
+  "bycatch": false,
+  "sources": [
+   "r1:airport-runway-terminal",
+   "r1:large-scale-solution-methods"
+  ],
+  "facets": [
+   "airport-runway-terminal",
+   "large-scale-solution-methods"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Robust identification of air traffic flow patterns in Metroplex terminal areas under demand uncertainty",
+  "authors": "Sidiropoulos, Han, Majumdar, Ochieng",
+  "year": 2017,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://spiral.imperial.ac.uk/entities/publication/dbb76848-c0f8-4168-a24b-298b30a3e60e",
+  "method_summary": "Multi-airport (metroplex) terminal area: clustering and robust identification of dominant arrival/departure flow patterns under demand uncertainty, used as input to dynamic route design in a MAS TMA; New York metroplex case.",
+  "method_tags": [
+   "metroplex",
+   "multi-airport system",
+   "robust",
+   "flow pattern identification",
+   "demand uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Provides a data-driven way to define shared corridors and capacity resources across clusters of regional airports, a prerequisite for the RAM flow network.",
+  "confidence": "medium",
+  "facet": "find:airport-runway-terminal",
+  "run": "wf_866bc6b9-81f",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:airport-runway-terminal",
+  "bycatch": false,
+  "sources": [
+   "r1:airport-runway-terminal"
+  ],
+  "facets": [
+   "airport-runway-terminal"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Real-time airport surface movement planning: Minimizing aircraft emissions",
+  "authors": "Evertse, Visser",
+  "year": 2017,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://repository.tudelft.nl/file/File_daa82b50-710d-48b7-8382-77854e35eb1b?preview=1",
+  "method_summary": "MILP that assigns timed taxi routes over a surface network (nodes/edges with occupancy and separation constraints) to minimise emissions and delay in real time. Search snippet corroborated authors, venue and MILP method but NOT the exact title or year, which are taken from memory.",
+  "method_tags": [
+   "MILP",
+   "surface movement",
+   "taxi routing",
+   "time-space network",
+   "emissions"
+  ],
+  "relevance": "A",
+  "relevance_note": "Node-edge time-indexed routing with occupancy constraints is the same construct needed for apron/charging-stand to runway movements at RAM airports; verify title and year.",
+  "confidence": "low",
+  "facet": "find:airport-runway-terminal",
+  "run": "wf_866bc6b9-81f",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:airport-runway-terminal",
+  "bycatch": false,
+  "sources": [
+   "r1:airport-runway-terminal"
+  ],
+  "facets": [
+   "airport-runway-terminal"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Ordered median hub location problems with capacity constraints",
+  "authors": "Puerto, Ramos, Rodríguez-Chía, Sánchez-Gil",
+  "year": 2016,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://produccioncientifica.uca.es/documentos/600ef0faf179b17b49334307?lang=fr",
+  "method_summary": "Capacitated single-allocation hub location with an ordered-median objective that weights sorted O-D costs to generalise median, center and centdian criteria; several MIP formulations with preprocessing and valid inequalities are compared computationally on AP instances. [Provenance: pass-through of sibling sightings on university research portals and arXiv preprint 1503.04468.]",
+  "method_tags": [
+   "hub location",
+   "capacitated hubs",
+   "ordered median",
+   "MIP formulations",
+   "valid inequalities",
+   "equity",
+   "MIP",
+   "capacitated hub location"
+  ],
+  "relevance": "B",
+  "relevance_note": "Lets the designer trade total cost against worst-served spaceports (equity/service-level weighting) while respecting hub throughput capacity, relevant where some spaceports must not be disadvantaged.",
+  "confidence": "medium",
+  "facet": "find:hub-capacity-congestion-time-definite-exact",
+  "run": "wf_9af13b0e-3bc",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:hub-capacity-congestion-time-definite-exact",
+  "bycatch": false,
+  "sources": [
+   "c1-hub-location",
+   "r1:hub-capacity-congestion-time-definite-exact",
+   "r1:hub-location"
+  ],
+  "facets": [
+   "hub-capacity-congestion-time-definite-exact",
+   "hub-location"
+  ],
+  "n_records": 3,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Operating cost sensitivity to required time of arrival commands to ensure separation in optimal aircraft 4D trajectories",
+  "authors": "(authors not shown in result; verify)",
+  "year": 2015,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://mail.iaorifors.com/paper/91359",
+  "method_summary": "Optimal-control 4D trajectory optimization with required-time-of-arrival (RTA) constraints imposed to ensure separation at fixes; quantifies the operating-cost penalty of RTA commands. TR-C Dec 2015. From snippet only.",
+  "method_tags": [
+   "4D trajectory optimization",
+   "required time of arrival",
+   "optimal control",
+   "trajectory-based operations",
+   "cost sensitivity"
+  ],
+  "relevance": "A",
+  "relevance_note": "Gives the cost of time-constraining individual trajectories, which a RAM metering model needs to value controlled times of arrival.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-trajectory-airspace",
+  "facet": "trajectory-airspace",
+  "sources": [
+   "c1-trajectory-airspace"
+  ],
+  "facets": [
+   "trajectory-airspace"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Air cargo operations: Literature review and comparison with practices",
+  "authors": "Feng, Li, Shen",
+  "year": 2015,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://hub.hku.hk/handle/10722/296109",
+  "method_summary": "Review of mathematical-model-based studies of air cargo operations (airlines, forwarders, terminal operators), identifying essential characteristics of air cargo processes and comparing theory with practice; TR-C 56:263-280. From snippet only.",
+  "method_tags": [
+   "air cargo",
+   "literature review",
+   "network planning",
+   "operations"
+  ],
+  "relevance": "B",
+  "relevance_note": "Maps the air-cargo modelling landscape (network planning, fleet routing, capacity) that the feeder-design analogy draws on.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-air-cargo-express-airline-network",
+  "facet": "air-cargo-express-airline-network",
+  "sources": [
+   "c2-air-cargo-express-airline-network"
+  ],
+  "facets": [
+   "air-cargo-express-airline-network"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "The flying sidekick traveling salesman problem: Optimization of drone-assisted parcel delivery",
+  "authors": "Murray, Chu",
+  "year": 2015,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://arxiv.org/pdf/1905.13463",
+  "method_summary": "Seminal truck-drone model: the Flying Sidekick TSP (FSTSP) and the parallel drone scheduling TSP (PDSTSP). MILP formulations with drone endurance, launch/retrieve synchronization and customer eligibility, plus simple heuristics; venue confirmed in search summaries as TR-C 54:86-109 (publisher URL not seen).",
+  "method_tags": [
+   "truck-drone",
+   "FSTSP",
+   "PDSTSP",
+   "MILP",
+   "synchronization",
+   "endurance constraint"
+  ],
+  "relevance": "B",
+  "relevance_note": "Originates the synchronized carrier/satellite-vehicle paradigm reused throughout emerging-technology network design.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-emerging-tech-network-design",
+  "facet": "emerging-tech-network-design",
+  "sources": [
+   "c3-emerging-tech-network-design"
+  ],
+  "facets": [
+   "emerging-tech-network-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Scheduling of airport runway operations using stochastic branch and bound methods",
+  "authors": "Sölveling, Clarke",
+  "year": 2014,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://repository.gatech.edu/entities/publication/befabe7e-6958-4fb1-b3b9-a813f7b8e324",
+  "method_summary": "Stochastic runway scheduling with uncertain aircraft ready/arrival times solved by stochastic branch and bound, using sample-based estimates of bounds to sequence arrivals and departures on shared runways.",
+  "method_tags": [
+   "stochastic branch and bound",
+   "runway scheduling",
+   "sampling",
+   "sequencing",
+   "uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Sample-based B&B for sequencing under time uncertainty transfers to sequencing eVTOL/regional aircraft on shared runways or vertipads with uncertain arrival times.",
+  "confidence": "medium",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "stochastic-robust-atfm"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Modelling delay propagation within an airport network",
+  "authors": "Pyrgiotis, Malone, Odoni (authors not shown in snippet; from the known TR-C paper)",
+  "year": 2013,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://trid.trb.org/view/1245698",
+  "method_summary": "Approximate Network Delays (AND) model: iterates between a dynamic queueing engine computing local delays at each airport and a delay propagation algorithm that updates downstream schedules and demand rates; applied to the 34 busiest US airports to capture ripple effects.",
+  "method_tags": [
+   "queueing network",
+   "delay propagation",
+   "network decomposition",
+   "dynamic queueing",
+   "airport network",
+   "queueing model",
+   "runway capacity",
+   "simulation-analytic"
+  ],
+  "relevance": "A",
+  "relevance_note": "Direct template for propagating turnaround and charging delays through a many-airport RAM network using fast analytical queues instead of simulation.",
+  "confidence": "medium",
+  "facet": "find:airport-runway-terminal",
+  "run": "wf_866bc6b9-81f",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:airport-runway-terminal",
+  "bycatch": false,
+  "sources": [
+   "c3-atfm-trb-trc-recent",
+   "r1:airport-runway-terminal"
+  ],
+  "facets": [
+   "airport-runway-terminal",
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Generating day-of-operation probabilistic capacity scenarios from weather forecasts",
+  "authors": "Buxi, Hansen",
+  "year": 2013,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://its.berkeley.edu/publications/generating-day-operation-probabilistic-capacity-scenarios-weather-forecasts",
+  "method_summary": "Methods to translate terminal weather forecasts (TAF and the SFO STRATUS marine-layer forecast) into probabilistic airport capacity scenarios with probabilities, used as input to a static stochastic GDP model; forecast-conditioned scenarios reduce realized delay cost by 17-23% versus climatological scenarios.",
+  "method_tags": [
+   "scenario generation",
+   "weather forecast integration",
+   "probabilistic capacity",
+   "stochastic GDP",
+   "data-driven"
+  ],
+  "relevance": "both",
+  "relevance_note": "Shows how to condition capacity scenarios on day-of-operation forecasts, the same step needed for weather-limited RAM airports and for spaceport launch-window scenario generation.",
+  "confidence": "medium",
+  "facet": "find:stochastic-robust-atfm",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:stochastic-robust-atfm",
+  "bycatch": false,
+  "sources": [
+   "r1:stochastic-robust-atfm"
+  ],
+  "facets": [
+   "stochastic-robust-atfm"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A framework for the assessment of collaborative en route resource allocation strategies",
+  "authors": "Kim, Hansen",
+  "year": 2013,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://its.berkeley.edu/publications/framework-assessment-collaborative-en-route-resource-allocation-strategies",
+  "method_summary": "Assessment framework for Airspace Flow Programs and the Combined Trajectory Options Program (CTOP), in which ground delays and centrally managed reroutes are allocated to flights crossing a capacity-constrained airspace region using airline-submitted trajectory options and preferences. TR-C 33:324-339. From snippet only.",
+  "method_tags": [
+   "airspace flow program",
+   "CTOP",
+   "en-route capacity",
+   "collaborative decision making",
+   "trajectory options",
+   "resource allocation",
+   "en-route resource allocation",
+   "CDM"
+  ],
+  "relevance": "A",
+  "relevance_note": "Trajectory-option-set allocation is the mechanism design most transferable to RAM operators choosing among routes/holds under airspace capacity limits.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-trajectory-airspace",
+  "facet": "trajectory-airspace",
+  "sources": [
+   "c1-trajectory-airspace",
+   "c2-dynamic-flows-theory",
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "dynamic-flows-theory",
+   "trajectory-airspace"
+  ],
+  "n_records": 3,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A cell based dynamic system optimum model with non-holding back flows",
+  "authors": "Zhu, Ukkusuri",
+  "year": 2013,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://nanyangtechnologicaluniv.demo.elsevierpure.com/en/publications/a-cell-based-dynamic-system-optimum-model-with-non-holding-back-f",
+  "method_summary": "Non-holding-back LP (NHBLP) embedding a CTM for system-optimum DTA that removes the holding-back artefact while staying linear; authors from recollection.",
+  "method_tags": [
+   "holding back",
+   "cell transmission model",
+   "system-optimal DTA",
+   "linear programming"
+  ],
+  "relevance": "A",
+  "relevance_note": "Linear remedy for holding-back transfers to time-expanded air-flow LPs.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-dynamic-flows-theory",
+  "facet": "dynamic-flows-theory",
+  "sources": [
+   "c2-dynamic-flows-theory"
+  ],
+  "facets": [
+   "dynamic-flows-theory"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A Network Pricing Formulation for the revenue maximization of European Air Navigation Service Providers",
+  "authors": "Castelli, Labbé, Violin",
+  "year": 2013,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://trid.trb.org/view/1256918",
+  "method_summary": "Bilevel network pricing problem: an ANSP (leader) sets en-route charges on arcs it owns; airlines (followers) choose cheapest routes; structure exploited to derive an exact algorithm for the optimal unit rate, applied to a European case study. TR-C 33:214-226.",
+  "method_tags": [
+   "bilevel programming",
+   "network pricing",
+   "en-route charges",
+   "route choice",
+   "exact algorithm"
+  ],
+  "relevance": "both",
+  "relevance_note": "Pricing airspace/arc use to steer route choice transfers to congestion pricing of RAM corridors and to pricing of spaceport-to-hub launch capacity.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Dealing with the efficient allocation of scarce resources at congested airports",
+  "authors": "Zografos, Salouras, Madas",
+  "year": 2012,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://eprints.lancs.ac.uk/id/eprint/64630",
+  "method_summary": "Integer program for IATA-style airport slot scheduling that minimises total schedule displacement subject to declared capacities over several rolling time windows; tested at Greek airports against manual allocations. Corroborated via a sibling facet's search result (Lancaster eprint; DOI not seen), not re-verified here.",
+  "method_tags": [
+   "slot allocation",
+   "IP",
+   "schedule displacement",
+   "airport capacity",
+   "integer programming",
+   "declared capacity",
+   "time windows",
+   "decision support"
+  ],
+  "relevance": "both",
+  "relevance_note": "Baseline displacement-minimising slot IP for RAM schedule coordination and for allocating scarce launch slots under declared pad/range capacity.",
+  "confidence": "low",
+  "facet": "find:equity-cdm-slots",
+  "run": "wf_e1f1eef2-bda",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:equity-cdm-slots",
+  "bycatch": false,
+  "sources": [
+   "r1:equity-cdm-slots",
+   "r1:time-windows-periodic-launch"
+  ],
+  "facets": [
+   "equity-cdm-slots",
+   "time-windows-periodic-launch"
+  ],
+  "n_records": 2,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "The design of a market mechanism to allocate Air Traffic Flow Management slots",
+  "authors": "Castelli, Pesenti, Ranieri (authors not shown in snippet; from the known TR-C paper)",
+  "year": 2011,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://iaorifors.com/paper/72955",
+  "method_summary": "Market mechanism for ATFM slots at a single constrained sector or airport in which airlines pay for delay reduction or are compensated for delay increase; satisfies individual rationality, budget balance, coalitional rationality and Pareto efficiency, with two distributed implementations that preserve confidentiality; real-data experiments show large cost reductions versus first-planned-first-served.",
+  "method_tags": [
+   "market mechanism",
+   "ATFM slots",
+   "budget balance",
+   "distributed implementation",
+   "mechanism design",
+   "slot allocation",
+   "distributed optimization",
+   "CDM"
+  ],
+  "relevance": "both",
+  "relevance_note": "Supplies an incentive-compatible way to allocate scarce RAM airport/corridor slots among competing operators without a central cost oracle.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-equity-cdm-slots",
+  "facet": "c1-equity-cdm-slots",
+  "sources": [
+   "c1-equity-cdm-slots",
+   "c3-atfm-trb-trc-recent",
+   "r1:deterministic-atfm",
+   "r1:equity-cdm-slots"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent",
+   "c1-equity-cdm-slots",
+   "deterministic-atfm",
+   "equity-cdm-slots"
+  ],
+  "n_records": 4,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Tramp ship routing and scheduling with speed optimization",
+  "authors": "Norstad, Fagerholt, Laporte",
+  "year": 2011,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://sintef.no/en/publications/publication/806579",
+  "method_summary": "Tramp routing and scheduling with contracted and optional spot cargoes where leg speed is a decision variable with cubic fuel consumption; multi-start local search heuristic; speed optimisation significantly improves solutions. TR-C 19(5):853-865 per snippet.",
+  "method_tags": [
+   "tramp shipping",
+   "speed optimisation",
+   "routing and scheduling",
+   "multi-start local search",
+   "optional cargoes"
+  ],
+  "relevance": "B",
+  "relevance_note": "On-demand (tramp) launch services with optional spot payloads and energy-speed trade-offs.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-liner-feeder-shipping",
+  "facet": "liner-feeder-shipping",
+  "sources": [
+   "c1-liner-feeder-shipping"
+  ],
+  "facets": [
+   "liner-feeder-shipping"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Air traffic control complexity as workload driver",
+  "authors": "(authors not shown in result; verify)",
+  "year": 2010,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://pp.bme.hu/tr/article/download/7512/6773",
+  "method_summary": "Studies air traffic complexity metrics as drivers of controller workload and hence sector capacity, TR-C 18(6). Seen only in a citing paper's reference list.",
+  "method_tags": [
+   "air traffic complexity",
+   "controller workload",
+   "sector capacity",
+   "regression"
+  ],
+  "relevance": "A",
+  "relevance_note": "Complexity-based capacity estimation is needed to set airspace capacity parameters in a RAM flow model.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c1-trajectory-airspace",
+  "facet": "trajectory-airspace",
+  "sources": [
+   "c1-trajectory-airspace"
+  ],
+  "facets": [
+   "trajectory-airspace"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Feeder transit services: Choosing between fixed and demand responsive policy",
+  "authors": "Li, Quadrifoglio",
+  "year": 2010,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.worldtransitresearch.info/research/3645",
+  "method_summary": "Simulation-based comparison of fixed-route and demand-responsive feeder policies with analytical approximations of the switching demand density across service-area shapes and performance weights.",
+  "method_tags": [
+   "demand-responsive feeder",
+   "fixed vs flexible",
+   "simulation",
+   "policy switch"
+  ],
+  "relevance": "B",
+  "relevance_note": "Companion policy-switch analysis for feeder design under varying demand density.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Service network design with asset management: Formulations and comparative analyses",
+  "authors": "Andersen, Crainic, Christiansen",
+  "year": 2009,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.cirrelt.ca/DocumentsTravail/CIRRELT-2007-55.pdf",
+  "method_summary": "Compares arc-based, path-based and cycle-based mixed-integer formulations of scheduled service network design with asset-management (vehicle balance and fleet-size) constraints on a cyclic time-space network, reporting that cycle-based formulations give tighter bounds and faster solution. Journal venue was not visible in the search snippet (seen as CIRRELT working paper); venue from sibling agent's knowledge.",
+  "method_tags": [
+   "time-space network",
+   "asset balance",
+   "MIP formulations",
+   "cycle variables",
+   "fleet size",
+   "service network design",
+   "asset management",
+   "design balance"
+  ],
+  "relevance": "B",
+  "relevance_note": "Gives the formulation choices for embedding a reusable launch-vehicle fleet (balance at every spaceport/hub node, capped fleet) in a periodic launch schedule design.",
+  "confidence": "low",
+  "facet": "find:fleet-sizing-empty-repositioning",
+  "run": "wf_be0fe65f-e1b",
+  "corroborated_by": "",
+  "oracle_venue": "",
+  "source": "r1:fleet-sizing-empty-repositioning",
+  "bycatch": false,
+  "sources": [
+   "c1-service-network-design",
+   "r1:fleet-sizing-capacity-expansion",
+   "r1:fleet-sizing-empty-repositioning",
+   "r1:service-network-design"
+  ],
+  "facets": [
+   "fleet-sizing-capacity-expansion",
+   "fleet-sizing-empty-repositioning",
+   "service-network-design"
+  ],
+  "n_records": 4,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "A chance-constrained based stochastic dynamic traffic assignment model: Analysis, formulation and solution algorithms",
+  "authors": "Waller, Ziliaskopoulos",
+  "year": 2006,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://ir.lib.uth.gr/xmlui/handle/11615/33695",
+  "method_summary": "Stochastic extension of the Ziliaskopoulos LP SO-DTA with random time-dependent demands; chance constraints give a robust system-optimal solution at a user-specified reliability level.",
+  "method_tags": [
+   "stochastic DTA",
+   "chance constraints",
+   "cell transmission model",
+   "linear programming",
+   "demand uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Chance-constrained capacity over time parallels probabilistic airport/airspace capacity in stochastic ATFM.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c2-dynamic-flows-theory",
+  "facet": "dynamic-flows-theory",
+  "sources": [
+   "c2-dynamic-flows-theory"
+  ],
+  "facets": [
+   "dynamic-flows-theory"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Hybrid route generation heuristic algorithm for the design of transit networks",
+  "authors": "Baaj, Mahmassani",
+  "year": 1995,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://trid.trb.org/View/424884",
+  "method_summary": "AI-based route generation algorithm guided by the demand matrix producing route sets for different user/operator trade-offs; part of a three-component design-analysis-improvement framework; Austin case.",
+  "method_tags": [
+   "transit network design",
+   "route generation",
+   "heuristic",
+   "AI-based"
+  ],
+  "relevance": "B",
+  "relevance_note": "Demand-guided route generation with trade-off fronts transfers to feeder route set generation.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-transit-feeder-design",
+  "facet": "transit-feeder-design",
+  "sources": [
+   "c3-transit-feeder-design"
+  ],
+  "facets": [
+   "transit-feeder-design"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Stochastic and Simulation-based Models for Setting Flow Rates in Collaborative Trajectory Options Program (CTOP)",
+  "authors": "(authors not shown; arXiv 1908.02917)",
+  "year": 0,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://ar5iv.labs.arxiv.org/html/1908.02917",
+  "method_summary": "Stochastic optimisation and simulation-based models for choosing flow rates at multiple flow-constrained areas in CTOP under demand and capacity uncertainty, where airlines submit trajectory option sets and the authority assigns trajectories balancing efficiency and equity. Snippet states publication in TR-C; year not shown.",
+  "method_tags": [
+   "CTOP",
+   "flow rate setting",
+   "stochastic optimization",
+   "simulation",
+   "trajectory option sets",
+   "uncertainty"
+  ],
+  "relevance": "A",
+  "relevance_note": "Rate-setting for multiple constrained resources with operator-submitted options is reusable for metering flows into constrained regional airports.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ },
+ {
+  "title": "Integrated optimization of terminal maneuvering area and airport at the macroscopic level",
+  "authors": "Delahaye (et al.; co-authors not shown; ENAC group)",
+  "year": 0,
+  "venue": "Transportation Research Part C",
+  "doi": "",
+  "url": "https://www.unibw.de/lvk/publications/overview",
+  "method_summary": "Macroscopic integrated optimisation of arrivals/departures through the terminal manoeuvring area network and airport (runway, taxi) using a time-slotted network with metaheuristic (simulated annealing) solution to reduce conflicts and delays. From snippet only.",
+  "method_tags": [
+   "terminal area",
+   "integrated airport-TMA",
+   "macroscopic model",
+   "metaheuristic",
+   "sequencing"
+  ],
+  "relevance": "A",
+  "relevance_note": "Integrated TMA-airport flow optimisation is the terminal layer of a RAM flow model.",
+  "confidence": "medium",
+  "bycatch": false,
+  "source": "c3-atfm-trb-trc-recent",
+  "facet": "atfm-trb-trc-recent",
+  "sources": [
+   "c3-atfm-trb-trc-recent"
+  ],
+  "facets": [
+   "atfm-trb-trc-recent"
+  ],
+  "n_records": 1,
+  "evidence": "none",
+  "decision": "pending"
+ }
+]
