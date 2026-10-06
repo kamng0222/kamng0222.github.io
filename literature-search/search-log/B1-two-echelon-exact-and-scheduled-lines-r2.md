@@ -59,7 +59,7 @@ failed twice and should get first call on the next budget.
   B2-verified-r1-3 states the Drexl DOI 10.1287/trsc.1110.0400 was "filled from recollection", i.e. NOT seen in a
   search result; this agent therefore carries Drexl with an EMPTY doi. The Xie et al. DOI 10.1287/trsc.2015.0630
   appears inside the publisher URL recorded by the search agent, so it is carried.
-- No saved WebSearch result blocks mentioning any facet target exist anywhere under /tmp/claude-0.
+- No saved WebSearch result blocks mentioning any facet target exist anywhere under 
 
 ## Candidates — pass-through only (NOT searched by this agent)
 
